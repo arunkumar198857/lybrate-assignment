@@ -1,6 +1,7 @@
-import React from 'react'
-import './User.css'
+import React from 'react';
+import './User.css';
 
+//This component creates the user cards.
 const User = ({user}) => {
     return (
         <div className="user-container__user">
@@ -15,4 +16,4 @@ const User = ({user}) => {
     )
 }
 
-export default User
+export default User;
